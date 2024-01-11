@@ -19,7 +19,7 @@ from PySide6.QtWidgets import (QApplication, QComboBox, QGridLayout, QHBoxLayout
     QLabel, QLineEdit, QListView, QMainWindow,
     QPushButton, QScrollArea, QSizePolicy, QVBoxLayout,
     QWidget)
-# import resources_rc
+import resources_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -38,7 +38,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 636, 1436))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, -892, 636, 1436))
         self.verticalLayout_4 = QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.horizontalLayout_3 = QHBoxLayout()
@@ -46,28 +46,28 @@ class Ui_MainWindow(object):
         self.label = QLabel(self.scrollAreaWidgetContents_2)
         self.label.setObjectName(u"label")
         self.label.setMaximumSize(QSize(155, 16777215))
-        self.label.setPixmap(QPixmap(u"../../../images/minsport.svg"))
+        self.label.setPixmap(QPixmap(u":/icons/images/minsport.svg"))
 
         self.horizontalLayout_3.addWidget(self.label)
 
         self.label_2 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_2.setObjectName(u"label_2")
         self.label_2.setMaximumSize(QSize(150, 16777215))
-        self.label_2.setPixmap(QPixmap(u"../../../images/minstroy.svg"))
+        self.label_2.setPixmap(QPixmap(u":/icons/images/minstroy.svg"))
 
         self.horizontalLayout_3.addWidget(self.label_2)
 
         self.label_7 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_7.setObjectName(u"label_7")
         self.label_7.setMaximumSize(QSize(150, 16777215))
-        self.label_7.setPixmap(QPixmap(u"../../../images/saratov.svg"))
+        self.label_7.setPixmap(QPixmap(u":/icons/images/saratov.svg"))
 
         self.horizontalLayout_3.addWidget(self.label_7)
 
         self.label_8 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_8.setObjectName(u"label_8")
         self.label_8.setMaximumSize(QSize(150, 16777215))
-        self.label_8.setPixmap(QPixmap(u"../../../images/smartcity.svg"))
+        self.label_8.setPixmap(QPixmap(u":/icons/images/smartcity.svg"))
 
         self.horizontalLayout_3.addWidget(self.label_8)
 
@@ -79,7 +79,7 @@ class Ui_MainWindow(object):
         self.label_9 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_9.setObjectName(u"label_9")
         self.label_9.setMaximumSize(QSize(156, 16777215))
-        self.label_9.setPixmap(QPixmap(u"../../../images/logo.svg"))
+        self.label_9.setPixmap(QPixmap(u":/icons/images/logo.svg"))
 
         self.horizontalLayout_2.addWidget(self.label_9)
 
@@ -206,21 +206,21 @@ class Ui_MainWindow(object):
         self.label_16 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_16.setObjectName(u"label_16")
         self.label_16.setMaximumSize(QSize(200, 16777215))
-        self.label_16.setPixmap(QPixmap(u"../../../images/\u0413\u0430\u043b\u0435\u0440\u0435\u044f 1.jpg"))
+        self.label_16.setPixmap(QPixmap(u":/images/images/\u0413\u0430\u043b\u0435\u0440\u0435\u044f 1.jpg"))
 
         self.horizontalLayout_4.addWidget(self.label_16)
 
         self.label_17 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_17.setObjectName(u"label_17")
         self.label_17.setMaximumSize(QSize(200, 16777215))
-        self.label_17.setPixmap(QPixmap(u"../../../images/\u0413\u0430\u043b\u0435\u0440\u0435\u044f 2.jpg"))
+        self.label_17.setPixmap(QPixmap(u":/images/images/\u0413\u0430\u043b\u0435\u0440\u0435\u044f 2.jpg"))
 
         self.horizontalLayout_4.addWidget(self.label_17)
 
         self.label_18 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_18.setObjectName(u"label_18")
         self.label_18.setMaximumSize(QSize(200, 16777215))
-        self.label_18.setPixmap(QPixmap(u"../../../images/\u0413\u0430\u043b\u0435\u0440\u0435\u044f 3.jpg"))
+        self.label_18.setPixmap(QPixmap(u":/images/images/\u0413\u0430\u043b\u0435\u0440\u0435\u044f 3.jpg"))
 
         self.horizontalLayout_4.addWidget(self.label_18)
 

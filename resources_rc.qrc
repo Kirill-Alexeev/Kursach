@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/Галерея 1.jpg</file>
+    <file>images/Галерея 2.jpg</file>
+    <file>images/Галерея 3.jpg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>images/logo.svg</file>
+    <file>images/minsport.svg</file>
+    <file>images/minstroy.svg</file>
+    <file>images/saratov.svg</file>
+    <file>images/smartcity.svg</file>
+  </qresource>
+</RCC>
