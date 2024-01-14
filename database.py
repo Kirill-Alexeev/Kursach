@@ -27,3 +27,14 @@ class Data:
                    "Event INTEGER, FOREIGN KEY (Event) REFERENCES Events(ID))")
 
         return True
+
+
+    def execute_query_with_params(self, sql_query, query_values=None):
+        query = QtSql.QSqlQuery()
+        query.prepare(sql_query)
+
+        if query_values is not None:
+            for query_value in query_values:
+                query.addBindValue(query_value)
+
+        query.exec()
