@@ -2,7 +2,7 @@ import sys
 from PySide6 import QtWidgets
 from PySide6.QtCore import QModelIndex
 from PySide6.QtSql import QSqlQuery
-from PySide6.QtWidgets import QApplication, QMainWindow
+from PySide6.QtWidgets import QApplication, QMainWindow, QMessageBox
 
 from main_window import Ui_MainWindow
 from gallery import Ui_Dialog
@@ -20,8 +20,8 @@ class SmartCity(QMainWindow):
         self.ui.listView.setModel(self.model)
         self.ui.listView.clicked.connect(self.on_click)
 
-        # self.ui.pushButton.clicked.connect(self.open_gallery_window())
-        self.ui.pushButton_2.clicked.connect(self.add_new_participants())
+        self.ui.pushButton.clicked.connect(self.open_gallery_window)
+        self.ui.pushButton_2.clicked.connect(self.add_new_participants)
 
     def open_gallery_window(self):
         self.new_window = QtWidgets.QDialog()
@@ -38,8 +38,11 @@ class SmartCity(QMainWindow):
         email = self.ui.lineEdit_6.text()
         event = self.ui.comboBox.currentText()
 
-        self.base.add_participants(name, age, gender, address, phone, email, event)
+        # self.base.add_participants(name, age, gender, address, phone, email, event)
 
+        query = QSqlQuery()
+        query.prepare(
+           "INSERT INTO Participants (Name, Age, Gender, Address, Phone, Email, Event) VALUES (?, ?, ?, ?, ?, ?, ?)")
         query.addBindValue(name)
         query.addBindValue(age)
         query.addBindValue(gender)
