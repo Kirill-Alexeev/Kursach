@@ -38,7 +38,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, -892, 636, 1436))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, -1045, 636, 1589))
         self.verticalLayout_4 = QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.horizontalLayout_3 = QHBoxLayout()
@@ -181,11 +181,22 @@ class Ui_MainWindow(object):
 
         self.listView = QListView(self.scrollAreaWidgetContents_2)
         self.listView.setObjectName(u"listView")
-        self.listView.setMaximumSize(QSize(16777215, 500))
+        self.listView.setMinimumSize(QSize(300, 280))
+        self.listView.setMaximumSize(QSize(300, 300))
         self.listView.setStyleSheet(u"font-size: 17px;\n"
-"color: white;")
+"color: white;\n"
+"border: 1 solid white;\n"
+"border-radius: 5;")
 
         self.verticalLayout_3.addWidget(self.listView)
+
+        self.label_27 = QLabel(self.scrollAreaWidgetContents_2)
+        self.label_27.setObjectName(u"label_27")
+        self.label_27.setStyleSheet(u"font-size: 18px;\n"
+"color: white;")
+        self.label_27.setWordWrap(True)
+
+        self.verticalLayout_3.addWidget(self.label_27)
 
 
         self.verticalLayout_4.addLayout(self.verticalLayout_3)
@@ -503,6 +514,7 @@ class Ui_MainWindow(object):
 "\u043d\u0438\u043a\u0430 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0430 \u0441 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u043c \u0432\u043e\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0435\u043c \u0436\u0438\u0442\u0435\u043b\u0435\u0439\n"
 "\u0421\u0430\u0440\u0430\u0442\u043e\u0432\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438.", None))
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"    \u041c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f", None))
+        self.label_27.setText("")
         self.label_15.setText(QCoreApplication.translate("MainWindow", u"     \u0413\u0430\u043b\u0435\u0440\u0435\u044f", None))
         self.label_16.setText("")
         self.label_17.setText("")

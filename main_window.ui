@@ -34,9 +34,9 @@ font-family: Lucida Sans Unicode;</string>
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>-892</y>
+         <y>-1045</y>
          <width>636</width>
-         <height>1436</height>
+         <height>1589</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -54,7 +54,7 @@ font-family: Lucida Sans Unicode;</string>
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="resources.qrc">:/icons/images/minsport.svg</pixmap>
+             <pixmap resource="resources_rc.qrc">:/icons/images/minsport.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -70,7 +70,7 @@ font-family: Lucida Sans Unicode;</string>
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="resources.qrc">:/icons/images/minstroy.svg</pixmap>
+             <pixmap resource="resources_rc.qrc">:/icons/images/minstroy.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -86,7 +86,7 @@ font-family: Lucida Sans Unicode;</string>
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="resources.qrc">:/icons/images/saratov.svg</pixmap>
+             <pixmap resource="resources_rc.qrc">:/icons/images/saratov.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -102,7 +102,7 @@ font-family: Lucida Sans Unicode;</string>
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="resources.qrc">:/icons/images/smartcity.svg</pixmap>
+             <pixmap resource="resources_rc.qrc">:/icons/images/smartcity.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -122,7 +122,7 @@ font-family: Lucida Sans Unicode;</string>
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="resources.qrc">:/icons/images/logo.svg</pixmap>
+             <pixmap resource="resources_rc.qrc">:/icons/images/logo.svg</pixmap>
             </property>
            </widget>
           </item>
@@ -289,13 +289,29 @@ margin: 30 0 0;</string>
            <widget class="QListView" name="listView">
             <property name="maximumSize">
              <size>
-              <width>16777215</width>
-              <height>500</height>
+              <width>300</width>
+              <height>600</height>
              </size>
             </property>
             <property name="styleSheet">
              <string notr="true">font-size: 17px;
+color: white;
+border: 1 solid white;
+border-radius: 5;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_27">
+            <property name="styleSheet">
+             <string notr="true">font-size: 18px;
 color: white;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -330,7 +346,7 @@ margin: 30 0 0;</string>
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="resources.qrc">:/images/images/Галерея 1.jpg</pixmap>
+               <pixmap resource="resources_rc.qrc">:/images/images/Галерея 1.jpg</pixmap>
               </property>
              </widget>
             </item>
@@ -346,7 +362,7 @@ margin: 30 0 0;</string>
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="resources.qrc">:/images/images/Галерея 2.jpg</pixmap>
+               <pixmap resource="resources_rc.qrc">:/images/images/Галерея 2.jpg</pixmap>
               </property>
              </widget>
             </item>
@@ -362,7 +378,7 @@ margin: 30 0 0;</string>
                <string/>
               </property>
               <property name="pixmap">
-               <pixmap resource="resources.qrc">:/images/images/Галерея 3.jpg</pixmap>
+               <pixmap resource="resources_rc.qrc">:/images/images/Галерея 3.jpg</pixmap>
               </property>
              </widget>
             </item>
@@ -758,6 +774,7 @@ QPushButton:hover {
   </widget>
  </widget>
  <resources>
+  <include location="resources_rc.qrc"/>
   <include location="resources.qrc"/>
  </resources>
  <connections/>
