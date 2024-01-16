@@ -181,7 +181,7 @@ class Ui_MainWindow(object):
 
         self.listView = QListView(self.scrollAreaWidgetContents_2)
         self.listView.setObjectName(u"listView")
-        self.listView.setMinimumSize(QSize(300, 280))
+        self.listView.setMinimumSize(QSize(300, 270))
         self.listView.setMaximumSize(QSize(300, 300))
         self.listView.setStyleSheet(u"font-size: 17px;\n"
 "color: white;\n"

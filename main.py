@@ -38,8 +38,6 @@ class SmartCity(QMainWindow):
         email = self.ui.lineEdit_6.text()
         event = self.ui.comboBox.currentText()
 
-        # self.base.add_participants(name, age, gender, address, phone, email, event)
-
         query = QSqlQuery()
         query.prepare(
            "INSERT INTO Participants (Name, Age, Gender, Address, Phone, Email, Event) VALUES (?, ?, ?, ?, ?, ?, ?)")

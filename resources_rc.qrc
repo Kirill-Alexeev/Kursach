@@ -1,5 +1,23 @@
 <RCC>
   <qresource prefix="images">
+    <file>images/Баскетбол1.jpg</file>
+    <file>images/Баскетбол2.jpg</file>
+    <file>images/Забег1.jpg</file>
+    <file>images/Забег2.jpg</file>
+    <file>images/Открытие1.jpg</file>
+    <file>images/Открытие2.jpg</file>
+    <file>images/Открытие3.jpg</file>
+    <file>images/Открытие4.jpg</file>
+    <file>images/Открытие5.jpg</file>
+    <file>images/Открытие6.jpg</file>
+    <file>images/Открытие7.jpg</file>
+    <file>images/Футбол2.jpg</file>
+    <file>images/Сессия2.jpg</file>
+    <file>images/Футбол1.jpg</file>
+    <file>images/Волейбол1.jpg</file>
+    <file>images/Волейбол2.jpg</file>
+    <file>images/Выставка.JPG</file>
+    <file>images/Сессия1.JPG</file>
     <file>images/Галерея 1.jpg</file>
     <file>images/Галерея 2.jpg</file>
     <file>images/Галерея 3.jpg</file>

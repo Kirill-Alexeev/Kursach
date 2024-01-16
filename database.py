@@ -56,25 +56,3 @@ class Data:
         model = QSqlQueryModel()
         model.setQuery("SELECT title FROM Events", db)
         return model
-
-    # def add_participants(self, name, age, gender, address, phone, email, event):
-    #     query = QSqlQuery()
-    #     query.prepare("INSERT INTO Participants (Name, Age, Gender, Address, Phone, Email, Event) VALUES (?, ?, ?, ?, ?, ?, ?)")
-    #
-    #     query.addBindValue(name)
-    #     query.addBindValue(age)
-    #     query.addBindValue(gender)
-    #     query.addBindValue(address)
-    #     query.addBindValue(phone)
-    #     query.addBindValue(email)
-    #     query.addBindValue(event)
-    #
-    #     if not query.exec():
-    #         print("Ошибка добавления события:", query.lastError().text())
-    #
-    #     query.exec()
-    #     return query
-
-    # def add_participants(self, name, age, gender, address, phone, email, event):
-    #     sql_query = "INSERT INTO Participants (name, age, gender, address, phone, email, event) VALUES (?, ?, ?, ?, ?, ?, ?)"
-    #     self.execute_query_with_params(sql_query, [name, age, gender, address, phone, email, event])
